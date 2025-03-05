@@ -32,8 +32,8 @@ def bike_sharing(df):
     "windspeed_hourly": ["max", "min", "mean", lambda x: x.max() - x.min()]  # Membuat fungsi kustom untuk range
 }).sort_values(by=("workingday_hourly", "count"), ascending=False)
 
-hour_dt = pd.read_csv("datset_hour.csv")
-bike_sharing = pd.read_csv("datset_bike_sharing.csv")
+hour_dt = pd.read_csv("./dashboard/datset_hour.csv")
+bike_sharing = pd.read_csv("./dashboard/datset_bike_sharing.csv")
 season_avg_df = season_avg_data(hour_dt)
 percent_registered, percent_casual = user_percentage_data(hour_dt)
 weather_df = weather_data(hour_dt)
