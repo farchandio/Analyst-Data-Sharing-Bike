@@ -34,3 +34,4 @@ streamlit run dashboard_Data.py
 
 # Note
 Data yang digunakan dalam aplikasi ini adalah "datset_hour.csv", "datset_day.csv"., "datset_bike_sharing.csv" Pastikan file ini berada di direktori yang sama dengan file Python atau copy data dari link github.
+Link Collab : https://colab.research.google.com/drive/1hp1g8JsvCNUU0In9TRYHwmAZbDZrUwom?usp=sharing
